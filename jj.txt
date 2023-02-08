@@ -1,0 +1,84 @@
+<div class="content">
+                    <a href="https://www.facebook.com/profile.php?id=100009754294227" target="_blank">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="info">
+                                <h3>Facebook</h3>
+                                <p>Check you are following me</p>
+                                <p>Mahmoud Gebreel</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/mahmoud_gebreel123/?igshid=ZmZhODViOGI%3D&fbclid=IwAR3Ouow42sSTQhF-GqU1pWR05nQiBfczMTLWDsd2rXpnDeYzmEB57G2GVPY" target="_blank">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="info">
+                                <h3>Instagram</h3>
+                                <p>Check you are following me</p>
+                                <p>mahmoud_gebreel123</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/MahmoudGebreel8?t=if35Gw54WQ6k8Vs-nXUF0g&s=09&fbclid=IwAR34bzQqLBRZTM9YF3hKU2ORUS4TLy75empMtBnu9Qw7aOnjq5JOAbmDkwE" target="_blank">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="info">
+                                <h3>Twitter</h3>
+                                <p>Check you are following me</p>
+                                <p>MahmoudGebreel8</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+________________________________________________________________________________________________________________________________
+
+.content{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #E9E8E8;
+    width: 21.25em;
+    box-shadow: 0 5px rgba(1 1 1 / 10%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #20262E;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info p{
+    color: #20262E;
+}
